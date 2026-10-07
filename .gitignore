@@ -1,0 +1,19 @@
+# Quarto build output
+/_site/
+/.quarto/
+/_freeze/
+
+# Full-resolution originals and source files
+/_originals/
+*.procreate
+*.psd
+*.ai
+*.afdesign
+*.tif
+*.tiff
+*.czi
+
+# OS / editor
+.DS_Store
+.vscode/
+*.Rproj.user/
