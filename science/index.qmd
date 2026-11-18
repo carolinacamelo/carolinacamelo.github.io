@@ -1,0 +1,33 @@
+---
+title: "Science"
+subtitle: "How do early embryos build their shape?"
+---
+
+::: {.todo}
+**TODO:** 2–3 plain-language sentences introducing your research and why it matters. A non-scientist should understand them.
+:::
+
+I am a developmental cell biologist. I did my bachelor's and master's in Biochemistry, then moved into developmental cell biology for my PhD and postdoc. I am currently a postdoctoral researcher in the [Morphogenesis in Development](https://ista.ac.at) group (Heisenberg group) at the Institute of Science and Technology Austria (ISTA). <!-- TODO: replace with the direct link to the group page -->
+
+::: {.doors .three}
+::: {.door}
+### [Research](research.qmd){.stretched-link}
+What I work on, in plain language.
+
+[Read more →]{.door-cta}
+:::
+
+::: {.door}
+### [Publications](publications.qmd){.stretched-link}
+Papers and preprints.
+
+[See the list →]{.door-cta}
+:::
+
+::: {.door}
+### [Experience](experience.qmd){.stretched-link}
+My academic path, talks and service.
+
+[See my path →]{.door-cta}
+:::
+:::

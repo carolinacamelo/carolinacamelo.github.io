@@ -1,0 +1,5 @@
+---
+title: "Page not found"
+---
+
+Sorry, this page doesn't exist (anymore). Try the [homepage](/index.qmd), the [portfolio](/illustration/index.qmd) or my [research](/science/index.qmd).

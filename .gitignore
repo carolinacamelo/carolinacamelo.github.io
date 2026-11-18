@@ -17,3 +17,15 @@
 .DS_Store
 .vscode/
 *.Rproj.user/
+.Rhistory
+
+**/*.quarto_ipynb
+
+# Unpublished portfolio pieces (draft: true): kept on this computer only, never uploaded.
+# Delete a line here once that piece is cleared to be public.
+/illustration/projects/2026-motility-division-metabolism/
+/illustration/projects/2026-multicellularity-comparative/
+/illustration/projects/2026-darwins-pond-to-embryo/
+/illustration/projects/2026-cytoskeleton-organelle-dynamics/
+/illustration/projects/2026-zebrafish-epiboly/
+/illustration/projects/2025-ascidian-embryo-stages/

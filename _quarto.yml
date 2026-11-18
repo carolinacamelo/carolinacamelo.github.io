@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/*.qmd"     # only .qmd pages become web pages (so PLAN.md / CLAUDE.md stay private)
+  # Files and folders starting with "_" (e.g. _project-template, _originals) are ignored automatically.
+
+website:
+  title: "Carolina Camelo"
+  description: "Scientist, scientific illustrator and science communicator."  # TODO: refine (used by search engines and link previews)
+  # site-url: https://TODO.com          # TODO: set once the domain is chosen (needed for social cards / sitemap)
+  favicon: assets/img/favicon.svg
+  page-navigation: true
+  back-to-top-navigation: true
+  open-graph: true
+  draft-mode: gone      # pages with `draft: true` are not built at all (nothing unpublished goes online)
+
+  navbar:
+    title: "Carolina Camelo"
+    left:
+      - text: "Illustration & Communication"
+        href: illustration/index.qmd
+      - text: "Science"
+        menu:
+          - text: "Overview"
+            href: science/index.qmd
+          - text: "Research"
+            href: science/research.qmd
+          - text: "Publications"
+            href: science/publications.qmd
+          - text: "Experience"
+            href: science/experience.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: envelope
+        href: "mailto:carolina.camelo92@gmail.com"
+        aria-label: "Email"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/carolinasantoscamelo/"
+        aria-label: "LinkedIn"
+
+  page-footer:
+    left: "© 2026 Carolina Camelo"
+    center: "Made with [Quarto](https://quarto.org)"
+    right:
+      - icon: envelope
+        href: "mailto:carolina.camelo92@gmail.com"
+        aria-label: "Email"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/carolinasantoscamelo/"
+        aria-label: "LinkedIn"
+
+format:
+  html:
+    theme:
+      light: [litera, styles/theme.scss]
+    lightbox: true        # click any image to see it large
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

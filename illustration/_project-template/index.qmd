@@ -1,0 +1,39 @@
+---
+# HOW TO USE THIS TEMPLATE
+# 1. Copy this whole folder into illustration/projects/
+# 2. Rename the copy to YYYY-short-name (e.g. 2026-cell-adhesion-poster)
+# 3. Put your images in the folder (web exports: max 2000 px, WebP, < 400 KB)
+# 4. Fill in the fields below and the text underneath
+# (This template itself is never shown on the site, because its folder name starts with "_".)
+
+title: "Short, descriptive title"
+date: 2026-01-01
+description: "One sentence shown under the image in the portfolio grid."
+image: cover.webp            # the thumbnail for the grid, in this folder
+image-alt: "Describe what the cover image shows."
+categories: [Illustration]   # choose from: Illustration, Infographic, Data visualisation, Outreach, Animation, Editorial, Poster
+featured: false              # true = also show on the homepage (pick 3)
+client: "Who it was for"
+tools: "Procreate, Illustrator"
+---
+
+::: {.project-meta}
+[**Client** {{< meta client >}}]{}
+[**Tools** {{< meta tools >}}]{}
+:::
+
+![Caption for the main image.](cover.webp){fig-alt="Describe what the image shows." group="gallery"}
+
+## The brief
+
+What was needed, for whom, and why.
+
+## My approach
+
+How you tackled it: research, sketches, choices of style and colour.
+
+![Early sketch.](sketch.webp){fig-alt="Describe the sketch." group="gallery"}
+
+## The outcome
+
+Where it was used and what it achieved.

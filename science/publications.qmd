@@ -1,0 +1,23 @@
+---
+title: "Publications"
+listing:
+  id: pubs
+  contents: publications.yml
+  type: table
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [date, title, author, journal]
+  field-display-names:
+    date: "Year"
+    title: "Title"
+    author: "Authors"
+    journal: "Journal"
+  sort-ui: false
+  filter-ui: false
+  feed: false
+---
+
+::: {#pubs}
+:::
+
+Full list on [ORCID](https://orcid.org/0000-0001-5903-1846). <!-- TODO: add your Google Scholar link if you have one -->

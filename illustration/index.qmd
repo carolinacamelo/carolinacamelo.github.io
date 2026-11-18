@@ -1,0 +1,20 @@
+---
+title: "Illustration & Communication"
+subtitle: "Translating complex science into clear, engaging visual stories."
+page-layout: full
+listing:
+  id: portfolio
+  contents: projects
+  type: grid
+  grid-columns: 3
+  categories: true        # filter buttons from each project's categories
+  sort: "date desc"
+  fields: [image, title, description, categories]
+  image-height: 260px
+  feed: false
+---
+
+Over the past decade, I have illustrated cell and developmental biology for the scientific community and for the general public: figures for my own papers, schematics and series for colleagues and reviews, and design for institutional events and outreach. Use the categories to filter, and click any piece for the full image and its story.
+
+::: {#portfolio}
+:::

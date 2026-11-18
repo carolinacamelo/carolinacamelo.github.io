@@ -1,0 +1,26 @@
+# One entry per paper, newest at the top.
+# "path" is the link the title opens (DOI link is best).
+
+- title: "Development: Turing mechanics"
+  author: "Hino N, Camelo C, Heisenberg CP"
+  journal: "Current Biology"
+  date: 2024-12-01
+  path: https://doi.org/10.1016/j.cub.2024.10.065
+
+- title: "Acute manipulation and real-time visualization of membrane trafficking and exocytosis in Drosophila"
+  author: "Glashauser J*, Camelo C*, Hollmann M, et al. (*co-first authors)"
+  journal: "Developmental Cell"
+  date: 2023-04-01
+  path: https://doi.org/10.1016/j.devcel.2023.03.006
+
+- title: "Tracheal tube fusion in Drosophila involves release of extracellular vesicles from multivesicular bodies"
+  author: "Camelo C, Körte A, Jacobs T, Luschnig S"
+  journal: "Journal of Cell Science"
+  date: 2022-02-01
+  path: https://doi.org/10.1242/jcs.259590
+
+- title: "Cells into tubes: Molecular and physical principles underlying lumen formation in tubular organs"
+  author: "Camelo C, Luschnig S"
+  journal: "Current Topics in Developmental Biology"
+  date: 2021-01-01
+  path: https://doi.org/10.1016/bs.ctdb.2020.09.002

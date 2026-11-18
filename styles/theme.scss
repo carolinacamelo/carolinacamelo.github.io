@@ -1,0 +1,147 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------
+// PLACEHOLDER LOOK (Phase 1).
+// These are deliberately neutral. In Phase 2 (visual identity) we
+// replace the colours and fonts below with ones drawn from your
+// own illustrations. Change a value here and the whole site updates.
+// ---------------------------------------------------------------
+
+// Colours
+$ink:        #1a2825;   // main text
+$paper:      #fbfaf7;   // page background
+$muted:      #6b6f76;   // secondary text
+$accent:     #2f6f73;   // links, buttons, highlights
+$line:       #e4e1da;   // borders, dividers
+
+// Fonts (system fonts for now; Google Fonts can be added in Phase 2)
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-base:       $font-family-sans-serif;
+$headings-font-family:   Georgia, "Times New Roman", serif;
+$headings-font-weight:   500;
+
+// Bootstrap / Quarto variables
+$body-bg:            $paper;
+$body-color:         $ink;
+$primary:            $accent;
+$link-color:         $accent;
+$navbar-bg:          #90D2C7;   // top bar background (light aqua)
+$navbar-fg:          $ink;      // top bar text (dark: white is too faint on this green)
+$navbar-hl:          $ink;      // active/hovered menu item
+$footer-bg:          $paper;
+$footer-fg:          $muted;
+$border-color:       $line;
+
+
+/*-- scss:rules --*/
+
+// ---------- General ----------
+.navbar { border-bottom: 1px solid $line; }
+.navbar-title { font-family: $headings-font-family; font-size: 1.25rem; }
+img { border-radius: 4px; }
+
+// ---------- Homepage ----------
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 2.5rem 0 2rem;
+
+  @media (min-width: 768px) { grid-template-columns: 3fr 2fr; }
+
+  .hero-title { font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.1; margin-bottom: 1rem; }
+  .hero-lead  { font-size: 1.2rem; color: $muted; max-width: 34em; }
+  img { width: 100%; height: auto; }
+}
+
+.doors {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin: 1rem 0 3rem;
+
+  @media (min-width: 768px) { grid-template-columns: 1fr 1fr; }
+  &.three { @media (min-width: 992px) { grid-template-columns: 1fr 1fr 1fr; } }
+
+  .door {
+    position: relative;   // lets the whole card be clickable
+    display: block;
+    padding: 1.75rem;
+    border: 1px solid $line;
+    border-radius: 8px;
+    background: #fff;
+    color: $ink;
+    text-decoration: none;
+    transition: border-color .15s ease, transform .15s ease;
+
+    &:hover, &:focus-within { border-color: $accent; transform: translateY(-2px); }
+    h3 { margin-top: 0; a { color: $ink; text-decoration: none; } }
+    p  { color: $muted; margin-bottom: 0; }
+    .door-cta { display: inline-block; margin-top: .75rem; color: $accent; font-weight: 600; }
+  }
+}
+
+// ---------- Portfolio project pages ----------
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.5rem;
+  padding: .75rem 0;
+  margin-bottom: 1.5rem;
+  border-top: 1px solid $line;
+  border-bottom: 1px solid $line;
+  color: $muted;
+  font-size: .95rem;
+  strong { color: $ink; font-weight: 600; margin-right: .35rem; }
+  p { display: flex; flex-wrap: wrap; gap: .25rem 1.75rem; margin: 0; }
+}
+
+// Reference line at the bottom of a project page
+.reference {
+  margin-top: 2rem;
+  padding-top: .75rem;
+  border-top: 1px solid $line;
+  color: $muted;
+  font-size: .9rem;
+}
+
+// Portfolio grid: show whole images (no cropping), on white
+.quarto-grid-item .thumbnail-image,
+.quarto-grid-item p.card-img-top > img {
+  object-fit: contain !important;
+  background: #fff;
+}
+
+// ---------- Experience timeline ----------
+.timeline {
+  border-left: 2px solid $line;
+  padding-left: 1.5rem;
+  margin-left: .25rem;
+
+  h3 {
+    position: relative;
+    font-size: 1.15rem;
+    margin-top: 1.75rem;
+    &::before {
+      content: "";
+      position: absolute;
+      left: calc(-1.5rem - 7px);
+      top: .4em;
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      background: $accent;
+      border: 2px solid $paper;
+    }
+  }
+  .when { display: block; color: $muted; font-size: .9rem; margin-top: -.25rem; }
+}
+
+// ---------- Placeholder notes (remove as content is filled in) ----------
+.todo {
+  border-left: 3px solid #d9a441;
+  background: #fbf3e2;
+  padding: .5rem .9rem;
+  margin: 1rem 0;
+  font-size: .95rem;
+}

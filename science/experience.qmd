@@ -1,0 +1,96 @@
+---
+title: "Experience"
+subtitle: "My path through research and science communication"
+---
+
+[Download my CV (PDF)](../assets/cv/carolina-camelo-cv.pdf){.btn .btn-outline-primary .btn-sm}
+
+## Research
+
+::: {.timeline}
+### Postdoctoral Researcher
+[Sep 2022 – present · Institute of Science and Technology Austria (ISTA), Heisenberg group]{.when}
+
+Cell–cell adhesion and embryo geometry in early ascidian (*Phallusia*) development. Funded by an FWF ESPRIT fellowship (2024–2027), after an initial Marie Skłodowska-Curie COFUND fellowship (IST-BRIDGE, 2022–2024).
+
+### PhD in Biology
+[2016 – 2021 · University of Münster, Luschnig group]{.when}
+
+Membrane trafficking and cell mechanics during epithelial tube fusion. Supervised four BSc/MSc student research projects (2018–2021).
+
+### MSc in Biochemistry
+[2013 – 2015 · University of Lisbon]{.when}
+
+### BSc in Biochemistry
+[2010 – 2013 · University of Lisbon]{.when}
+:::
+
+## Communication & outreach
+
+::: {.timeline}
+### Science Communication I: Sharing Science With a General Audience
+[Fall 2026 · UCSC Silicon Valley Extension (in progress)]{.when}
+
+### Public science engagement, VISTA Science & AITHYRA
+[2025 – present · ISTA]{.when}
+
+Featured in "Next Gen Scientist", VISTA Science's video interview series on paths into a research career. Co-presented "Meet the Scientist", a public talk and lab tour on embryonic development. Guest researcher for the AITHYRA Life Sciences School 2026, an outreach programme for Ukrainian high-school science students.
+
+### Job shadowing, ISTA Communications Department
+[Feb – Mar 2025]{.when}
+
+Shadowed the social media team, science writers and the press-release journalist. Designed and was credited for the [auxin-signalling schematic](../illustration/projects/2025-auxin-signaling-ista-news/index.qmd) in an ISTA news feature.
+
+### Pen pal volunteer, Letters to a Pre-Scientist
+[2023 – present]{.when}
+
+Accessible science writing for pre-college students from underserved backgrounds.
+
+### Volunteer illustrator, Stop Finning EU
+[2021]{.when}
+
+Flyers and [social media graphics](../illustration/projects/2021-stop-finning-campaign/index.qmd) for an animal-welfare advocacy campaign.
+:::
+
+## Service & leadership
+
+::: {.timeline}
+### Co-organiser, ISTA Postdoc Retreat 2026
+[2026]{.when}
+
+### Postdoc Representative, ISTA Postdoc Association
+[Nov 2023 – present]{.when}
+
+Set up and run the communication workflow between the Postdoc Association and the ISTA Communications Department. Plan, design and promote materials for postdoc events (annual retreat, career workshops, social gatherings). Contributed to institutional policy communication, including a parental-leave policy change.
+
+### Sustainability Group member, ISTA
+[Nov 2022 – Dec 2024]{.when}
+
+Organised a public talk and contributed to the Food Parliament initiative.
+:::
+
+## Training in design & communication
+
+- Science Communication I: Sharing Science With a General Audience, UCSC Silicon Valley Extension (in progress Fall 2026)
+- Social Media for Scientists, ISTA graduate course (2026)
+- Presenting Science Using Storytelling and Style, ISTA graduate course (2023)
+- Scientific Figure-Making & Data Visualization Workshop, artsci studios (Mark Belan), ISTA (2023)
+- Scientific Design, SCIGRAPHIX, SFB1348 Graduate School, Münster (2021)
+- Fiji/ImageJ Advanced Course, CiM Graduate School, Münster (2018)
+- Adobe Photoshop CS6 Basics, PhD training workshop, Münster (2017)
+- BioVoxxel: Scientific Image Processing & Analysis, Münster (2016)
+
+## Talks & posters
+
+### Talk
+
+- **2024** · *Geometry establishment in ascidian embryos: dissecting the cell–cell contact network topology critical for embryo shape.* 12th International Tunicate Meeting, Santa Cruz, USA.
+
+### Posters
+
+- **2024** · *Formation and function of cell–cell contact patterns in early embryonic development.* Forces Across Scales, Porto, Portugal.
+- **2019** · *Membrane trafficking and cell mechanics during epithelial tube fusion.* Cellular Signaling Platforms: From Molecules to Organisms, Münster, Germany.
+- **2018** · *Membrane trafficking and cell mechanics during epithelial tube fusion.* 12th CiM-IMPRS Graduate School Meeting, Münster, Germany.
+- **2017** · *Spatiotemporal regulation of secretory lysosomes controls epithelial tube fusion.* 11th CiM-IMPRS Graduate School Meeting, Münster, Germany.
+- **2015** · *Alternative transcripts of the human gene encoding TBCCD1 protein have distinct expression patterns and cellular localizations.* 31st Ernst Klenk Symposium in Molecular Medicine, Cologne, Germany.
+- **2014** · *Redox regulation of the transcription factor Opi1p by hydrogen peroxide in* Saccharomyces cerevisiae. XX Jornadas de Biologia de Leveduras Prof. Nicolau Van Uden, Lisbon, Portugal.

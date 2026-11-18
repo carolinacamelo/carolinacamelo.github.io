@@ -50,8 +50,10 @@ Website/
 ├── _quarto.yml              # site config: navbar, theme, footer
 ├── index.qmd                # homepage
 ├── about.qmd
+├── 404.qmd                # "page not found" page
 ├── illustration/
 │   ├── index.qmd            # portfolio grid (Quarto listing)
+│   ├── _project-template/   # copy this to start a new project (never shown on the site)
 │   └── projects/
 │       └── 2026-embryo-cleavage-poster/
 │           ├── index.qmd    # one project page
@@ -135,7 +137,7 @@ Original, full-resolution artwork (Procreate, Illustrator, Affinity, TIFFs) stay
 | Phase | What | Done when |
 |---|---|---|
 | **0. Setup** | Install Quarto + VS Code (or Positron), create GitHub repo, `git init`, add `.gitignore` | `quarto preview` shows a blank site |
-| **1. Skeleton** | `_quarto.yml`, navbar, all pages as placeholders, listing for portfolio and publications | Every link works, with placeholder content |
+| **1. Skeleton** ✅ *(done 7 Oct 2026)* | `_quarto.yml`, navbar, all pages as placeholders, listing for portfolio and publications | Every link works, with placeholder content |
 | **2. Visual identity** | Palette, fonts, logo/monogram, favicon, homepage layout | Site looks like *me*, on desktop and phone |
 | **3. Portfolio** | First 6–10 projects with covers, stories, lightbox | Portfolio grid is complete and filterable |
 | **4. Science** | Research text, publications YAML, experience timeline | Science section complete |
@@ -155,3 +157,11 @@ Original, full-resolution artwork (Procreate, Illustrator, Affinity, TIFFs) stay
 - [ ] **Blog/Notes section**: now, later, or never?
 - [ ] **Contact**: plain email link (simplest) vs a contact form (needs a service like Formspree)
 - [ ] **Visual identity**: palette and fonts, ideally derived from my own illustrations
+
+---
+
+## 9. Status log
+
+- **7 Oct 2026, Phase 1 done.** Working skeleton: all pages, navbar, portfolio grid with category filters and 4 placeholder projects (3 featured on the homepage), project template, publications table from YAML, experience timeline, About page (portrait + links), 404 page. Neutral placeholder look in `styles/theme.scss`. Yellow **TODO** boxes mark everything to fill in. Next: Phase 0 leftovers (GitHub repo) and Phase 2 (visual identity).
+- **7 Oct 2026, content from CV & portfolio PDF.** Added the profile photo, the CV (PDF download), 14 portfolio pieces (8 visible, 6 hidden as drafts until the authors agree), publications, experience, bio and homepage text. Phase 3 (portfolio) is mostly done; the Science section is filled except the plain-language intro. Open: talks/posters list, permission for the 6 hidden pieces, per-piece tools, contact email choice (ISTA vs personal), phone number in the CV.
+- **18 Nov 2026.** Phone number removed from the public CV (`assets/cv/carolina-camelo-cv.pdf`); the original with the number is in `_originals/` (git-ignored). Site contact email changed to carolina.camelo92@gmail.com. Still to fix in the CV source: LinkedIn (linkedin.com/in/carolinasantoscamelo) and email (carolina.camelo92@gmail.com).

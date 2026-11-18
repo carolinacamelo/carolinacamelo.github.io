@@ -1,0 +1,43 @@
+---
+title: "About"
+about:
+  id: about-block
+  template: trestles
+  image: assets/img/portrait.webp
+  image-alt: "Portrait of Carolina Camelo."
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:carolina.camelo92@gmail.com"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/carolinasantoscamelo/"
+    - icon: file-earmark-person
+      text: CV (PDF)
+      href: assets/cv/carolina-camelo-cv.pdf
+    - text: ORCID
+      href: "https://orcid.org/0000-0001-5903-1846"
+---
+
+::: {#about-block}
+
+## Hi, I'm Carolina
+
+I'm a developmental cell biologist by training and a visual communicator by inclination. I studied Biochemistry in Lisbon, did my PhD in Cell and Developmental Biology at the University of Münster, and I'm now a postdoctoral researcher at the Institute of Science and Technology Austria (ISTA) in Vienna.
+
+For nearly a decade, I have translated complex cell and developmental biology into visual narratives. What started as a practical skill to illustrate my own research quickly became the work I find most rewarding: figures for my own papers, then schematics, series and diagrams for colleagues, reviews and outreach pieces. Along the way I spent two months job-shadowing the ISTA Communications Office, and I'm currently taking a Science Communication course at UC Santa Cruz Extension.
+
+<!-- DRAFT built from your CV and portfolio text: rewrite freely. -->
+
+## What I offer
+
+- Scientific illustration and schematics for papers, reviews and presentations
+- Data visualisation and figure layout
+- Infographics and visuals for news features and outreach
+- Event and campaign design: posters, flyers and social media graphics
+
+## Get in touch
+
+I'm open to collaborations and new opportunities in scientific illustration and science communication. The easiest way to reach me is by [email](mailto:carolina.camelo92@gmail.com).
+
+:::

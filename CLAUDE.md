@@ -18,6 +18,16 @@ See `PLAN.md` for goals, site map, phases and open decisions. Keep `PLAN.md` up 
 - Prefer solutions she can maintain herself: Markdown, YAML front matter, copying a folder. Avoid custom JavaScript, build tooling, or R/Python code in pages unless clearly worth it.
 - She has a strong visual eye. Propose design options and let her choose; don't impose a generic look.
 
+## Notes on the setup
+
+- Only `.qmd` files become pages (`render: "**/*.qmd"` in `_quarto.yml`), so `PLAN.md` and `CLAUDE.md` are never published.
+- Anything whose name starts with `_` is ignored by Quarto (e.g. `_project-template/`, `_originals/`).
+- Yellow `::: {.todo}` boxes mark placeholder content; delete each box once its content is filled in. Before launch, search the repo for `TODO` (also in `_quarto.yml` links).
+- Portfolio content came from Carolina's portfolio PDF (Sept 2026). Project text is her own wording; keep it that way unless she asks for edits.
+- **Unpublished work is hidden with `draft: true`** in a project's front matter. `draft-mode: gone` in `_quarto.yml` means drafts are not built at all. Currently hidden until the authors agree: the three Kizenko et al. *Nature Genetics* review figures, Singaraju et al. (*NCB*, under revision), the Kapoor et al. epiboly schematic, and the Jovic ascidian stages. These draft folders are also listed in `.gitignore` so their images never reach the public GitHub repo; remove the line there when one is cleared. Only switch one to `draft: false` when Carolina confirms permission.
+- The CV PDF (`assets/cv/carolina-camelo-cv.pdf`) is pages 2–3 of her job application. Never publish the cover letter or the references page (they contain other people's contact details).
+- Reusable CSS classes in `styles/theme.scss`: `.hero`, `.doors` / `.door` (clickable cards; `.doors.three` for three columns), `.project-meta`, `.timeline` with `.when`, `.todo`.
+
 ## Commands
 
 ```bash
@@ -48,7 +58,7 @@ styles/theme.scss               # custom colours, fonts, styles
 
 ### Adding a portfolio piece
 
-Create `illustration/projects/YYYY-short-slug/index.qmd`:
+Copy the folder `illustration/_project-template/` into `illustration/projects/` and rename it `YYYY-short-slug`. Its `index.qmd` starts like this:
 
 ```yaml
 ---
@@ -58,12 +68,13 @@ description: "One sentence shown on the grid card."
 image: cover.webp            # grid thumbnail, in the same folder
 image-alt: "What the image shows."
 categories: [Illustration, Outreach]
+featured: false              # true = also shown on the homepage (keep exactly 3 featured)
 client: "Who it was for (optional)"
-tools: [Procreate, Illustrator]
+tools: "Procreate, Illustrator"  # plain text, shown in the Client/Tools row via {{< meta tools >}}
 ---
 ```
 
-Body structure: **The brief → My approach → The outcome**, plus images (with alt text and captions). Group images into a lightbox gallery with `{group="gallery"}`.
+Body: images (`figure-1.webp`, `figure-2.webp`… with captions and alt text, grouped with `{group="gallery"}`), then the story (optionally as **The brief → My approach → The outcome**), then a `::: {.reference}` block with the citation/DOI link. Covers are 1200 × 900 px (4:3) with the artwork centred on white; the grid shows them uncropped.
 
 Allowed categories (keep this list consistent; extend it here first): `Illustration`, `Infographic`, `Data visualisation`, `Outreach`, `Animation`, `Editorial`, `Poster`.
 
