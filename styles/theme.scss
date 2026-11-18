@@ -113,6 +113,60 @@ img { border-radius: 4px; }
   background: #fff;
 }
 
+// ---------- Portfolio: moving strip ("filmstrip") ----------
+// The strip shows every project twice in a row and slides left by exactly
+// one copy, so the loop is seamless. Speed: change the 60s below.
+.filmstrip {
+  overflow: hidden;
+  margin: .5rem 0 2rem;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+}
+.filmstrip-track {
+  display: flex;
+  width: max-content;
+  animation: filmstrip-slide 60s linear infinite;
+}
+.filmstrip:hover .filmstrip-track,
+.filmstrip:focus-within .filmstrip-track { animation-play-state: paused; }
+
+.filmstrip-item {
+  flex: 0 0 auto;
+  width: 280px;
+  margin-right: 1rem;
+  background: #fff;
+  border: 1px solid $line;
+  border-radius: 8px;
+  overflow: hidden;
+  color: $ink;
+  text-decoration: none;
+  transition: border-color .15s ease;
+  &:hover, &:focus { border-color: $accent; color: $ink; }
+  img { display: block; width: 100%; height: 210px; object-fit: contain; border-radius: 0; }
+  .filmstrip-title { display: block; padding: .5rem .75rem; font-size: .9rem; line-height: 1.3; }
+}
+
+@keyframes filmstrip-slide {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@media (max-width: 576px) {
+  .filmstrip-item { width: 200px; img { height: 150px; } }
+}
+
+// No movement for people who ask their device to reduce motion:
+// the strip becomes a row they can scroll by hand.
+@media (prefers-reduced-motion: reduce) {
+  .filmstrip { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
+  .filmstrip-track { animation: none; }
+}
+
+// ---------- Portfolio: sections ----------
+.portfolio-section { margin-top: 2.5rem; }
+// Hide a section (heading included) while it has no projects yet
+.portfolio-section:not(:has(.quarto-grid-item)) { display: none; }
+
 // ---------- Experience timeline ----------
 .timeline {
   border-left: 2px solid $line;

@@ -1,0 +1,14 @@
+```{=html}
+<div class="filmstrip" role="region" aria-label="Selected work">
+  <div class="filmstrip-track">
+  <% for (const pass of [0, 1]) { %>
+    <% for (const item of items) { %>
+    <a class="filmstrip-item" href="<%- item.path %>"<% if (pass === 1) { %> aria-hidden="true" tabindex="-1"<% } %>>
+      <img src="<%- item.image %>" alt="<%= pass === 0 ? (item['image-alt'] || item.title) : '' %>" loading="lazy">
+      <span class="filmstrip-title"><%= item.title %></span>
+    </a>
+    <% } %>
+  <% } %>
+  </div>
+</div>
+```

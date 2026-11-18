@@ -6,6 +6,8 @@ image: cover.webp
 image-alt: "Two embryo-like spheres: red spots of signal concentration surrounded by blue arrows showing a mechanical feedback loop, which self-organises into localised spots that predict hair follicle positions."
 categories: [Illustration, Editorial]
 featured: false
+portfolio-section: 2d
+showcase: true
 client: "Current Biology (Dispatch, co-author)"
 tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---

@@ -6,6 +6,8 @@ image: cover.webp
 image-alt: "Event poster with bold orange hand-lettered title 'The Postdoc Retreat!', line drawings of mountains, a lecture and a toast, event dates and a registration QR code."
 categories: [Poster, Outreach]
 featured: true
+portfolio-section: design
+showcase: true
 client: "ISTA Postdoc Association"
 tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---

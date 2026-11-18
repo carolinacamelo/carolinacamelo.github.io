@@ -19,7 +19,16 @@ website:
     title: "Carolina Camelo"
     left:
       - text: "Illustration & Communication"
-        href: illustration/index.qmd
+        menu:
+          - text: "All work"
+            href: illustration/index.qmd
+          - text: "2D Illustration"
+            href: illustration/index.qmd#illustration-2d
+          # Remove the "#" from the next two lines when the first 3D piece is on the site:
+          # - text: "3D & Animation"
+          #   href: illustration/index.qmd#animation-3d
+          - text: "Communication Design"
+            href: illustration/index.qmd#communication-design
       - text: "Science"
         menu:
           - text: "Overview"

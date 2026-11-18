@@ -3,18 +3,73 @@ title: "Illustration & Communication"
 subtitle: "Translating complex science into clear, engaging visual stories."
 page-layout: full
 listing:
-  id: portfolio
-  contents: projects
-  type: grid
-  grid-columns: 3
-  categories: true        # filter buttons from each project's categories
-  sort: "date desc"
-  fields: [image, title, description, categories]
-  image-height: 260px
-  feed: false
+  # Moving strip at the top: every project with `showcase: true`
+  - id: showcase
+    contents: projects
+    include:
+      showcase: true
+    sort: "date desc"
+    template: _filmstrip.ejs
+    feed: false
+
+  # One grid per section, filled from each project's `portfolio-section:` field
+  - id: section-2d
+    contents: projects
+    include:
+      portfolio-section: "2d"
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    fields: [image, title, description, categories]
+    image-height: 260px
+    feed: false
+
+  - id: section-3d
+    contents: projects
+    include:
+      portfolio-section: "3d"
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    fields: [image, title, description, categories]
+    image-height: 260px
+    feed: false
+
+  - id: section-design
+    contents: projects
+    include:
+      portfolio-section: "design"
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    fields: [image, title, description, categories]
+    image-height: 260px
+    feed: false
 ---
 
-Over the past decade, I have illustrated cell and developmental biology for the scientific community and for the general public: figures for my own papers, schematics and series for colleagues and reviews, and design for institutional events and outreach. Use the categories to filter, and click any piece for the full image and its story.
+::: {#showcase}
+:::
 
-::: {#portfolio}
+Over the past decade, I have illustrated cell and developmental biology for the scientific community and for the general public: figures for my own papers, schematics and series for colleagues and reviews, and design for institutional events and outreach. Click any piece for the full image and its story.
+
+::: {.portfolio-section}
+## 2D Illustration {#illustration-2d}
+
+::: {#section-2d}
+:::
+:::
+
+<!-- This section hides itself while it has no projects (see .portfolio-section in styles/theme.scss). -->
+::: {.portfolio-section}
+## 3D & Animation {#animation-3d}
+
+::: {#section-3d}
+:::
+:::
+
+::: {.portfolio-section}
+## Communication Design {#communication-design}
+
+::: {#section-design}
+:::
 :::

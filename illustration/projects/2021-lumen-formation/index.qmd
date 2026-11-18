@@ -6,6 +6,8 @@ image: cover.webp
 image-alt: "Six panels comparing ways epithelial tubes form a lumen: budding and wrapping, entrapment, cavitation, cord hollowing, cell hollowing and plasma membrane invagination."
 categories: [Illustration, Editorial]
 featured: false
+portfolio-section: 2d
+showcase: true
 client: "Own review chapter, Current Topics in Developmental Biology"
 tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---

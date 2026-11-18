@@ -6,6 +6,8 @@ image: cover.webp
 image-alt: "Zebrafish oocytes at five stages, growing in size from left to right along an arrow labelled oogenesis progression."
 categories: [Illustration, Editorial]
 featured: true
+portfolio-section: 2d
+showcase: true
 client: "Hofmann & Heisenberg, Seminars in Cell & Developmental Biology"
 tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---

@@ -11,8 +11,10 @@ date: 2026-01-01
 description: "One sentence shown under the image in the portfolio grid."
 image: cover.webp            # the thumbnail for the grid, in this folder
 image-alt: "Describe what the cover image shows."
-categories: [Illustration]   # choose from: Illustration, Infographic, Data visualisation, Outreach, Animation, Editorial, Poster
+categories: [Illustration]   # tags, choose from: Illustration, Infographic, Data visualisation, Outreach, Animation, Editorial, Poster, Volunteer
 featured: false              # true = also show on the homepage (pick 3)
+portfolio-section: 2d                  # which portfolio section: 2d, 3d or design
+showcase: false              # true = also shown in the moving strip at the top of the portfolio page
 client: "Who it was for"
 tools: "Procreate, Illustrator"
 ---

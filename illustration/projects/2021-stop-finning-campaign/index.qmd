@@ -4,8 +4,10 @@ date: 2021-06-01
 description: "Volunteer social media graphics for an EU-wide campaign against the shark fin trade."
 image: cover.webp
 image-alt: "Social media post: an underwater photo of a shark with the headline 'Stop finning, stop the trade' and a red 'Vote now' button."
-categories: [Outreach]
+categories: [Outreach, Volunteer]
 featured: false
+portfolio-section: design
+showcase: true
 client: "Stop Finning EU coalition (volunteer)"
 tools: "Adobe Photoshop, Illustrator"
 ---

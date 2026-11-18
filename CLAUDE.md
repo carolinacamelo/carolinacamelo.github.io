@@ -76,7 +76,14 @@ tools: "Procreate, Illustrator"  # plain text, shown in the Client/Tools row via
 
 Body: images (`figure-1.webp`, `figure-2.webp`… with captions and alt text, grouped with `{group="gallery"}`), then the story (optionally as **The brief → My approach → The outcome**), then a `::: {.reference}` block with the citation/DOI link. Covers are 1200 × 900 px (4:3) with the artwork centred on white; the grid shows them uncropped.
 
-Allowed categories (keep this list consistent; extend it here first): `Illustration`, `Infographic`, `Data visualisation`, `Outreach`, `Animation`, `Editorial`, `Poster`.
+Allowed categories (tags shown on cards; keep this list consistent; extend it here first): `Illustration`, `Infographic`, `Data visualisation`, `Outreach`, `Animation`, `Editorial`, `Poster`, `Volunteer`.
+
+### Portfolio sections and the moving strip
+
+- The portfolio page (`illustration/index.qmd`) has three sections, filled from each project's `portfolio-section:` field: `2d` (2D Illustration), `3d` (3D & Animation), `design` (Communication Design). The field can't be called `section` (reserved by Quarto).
+- A section with no projects hides itself (CSS rule `.portfolio-section:not(:has(.quarto-grid-item))`). When the first `3d` piece is added, also uncomment the "3D & Animation" entry in the navbar menu in `_quarto.yml`.
+- The moving strip at the top of the portfolio page shows every project with `showcase: true`. Template: `illustration/_filmstrip.ejs`; styles and speed in `styles/theme.scss` (`.filmstrip`). It stops on hover and is static for visitors with "reduce motion" on.
+- `featured: true` is separate: the 3 pieces on the homepage.
 
 ### Adding a publication
 
