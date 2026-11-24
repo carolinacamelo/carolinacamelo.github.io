@@ -22,7 +22,7 @@ listing:
 ::: {.hero-text}
 [I turn science into pictures and stories.]{.hero-title .h1 .d-block}
 
-[I'm a developmental cell biologist by training and a visual communicator by inclination. For nearly a decade I've been translating complex cell and developmental biology into clear visual stories.]{.hero-lead .d-block}
+[I am a biologist and visual science communicator. For nearly a decade I've been translating complex cell and developmental biology into clear visual stories.]{.hero-lead .d-block}
 :::
 
 ![](assets/img/hero.webp){fig-alt="Illustration of a flowering plant with a magnified view of a root cell, from my auxin signalling schematic for ISTA News." .lightbox-skip}

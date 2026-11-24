@@ -9,10 +9,10 @@
 
 // Colours
 $ink:        #1a2825;   // main text
-$paper:      #fbfaf7;   // page background
-$muted:      #6b6f76;   // secondary text
+$paper:      #EFE7D6;   // page background (light sand, from the warm tones in my illustrations)
+$muted:      #5a5e64;   // secondary text (a bit darker so it stays readable on sand)
 $accent:     #2f6f73;   // links, buttons, highlights
-$line:       #e4e1da;   // borders, dividers
+$line:       #dccfb3;   // borders, dividers (darker sand)
 
 // Fonts (system fonts for now; Google Fonts can be added in Phase 2)
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -25,9 +25,9 @@ $body-bg:            $paper;
 $body-color:         $ink;
 $primary:            $accent;
 $link-color:         $accent;
-$navbar-bg:          #90D2C7;   // top bar background (light aqua)
-$navbar-fg:          $ink;      // top bar text (dark: white is too faint on this green)
-$navbar-hl:          $ink;      // active/hovered menu item
+$navbar-bg:          #2F6F73;   // top bar background (deep teal)
+$navbar-fg:          #ffffff;   // top bar text (white on deep teal)
+$navbar-hl:          #ffffff;   // active/hovered menu item
 $footer-bg:          $paper;
 $footer-fg:          $muted;
 $border-color:       $line;
