@@ -67,15 +67,14 @@ img { border-radius: 4px; }
   .door {
     position: relative;   // lets the whole card be clickable
     display: block;
-    padding: 1.75rem;
-    border: 1px solid $line;
-    border-radius: 8px;
-    background: #fff;
+    padding: .5rem 1.5rem;
+    border-left: 4px solid $accent;   // only a teal line on the left (no box)
+    background: transparent;
     color: $ink;
     text-decoration: none;
     transition: border-color .15s ease, transform .15s ease;
 
-    &:hover, &:focus-within { border-color: $accent; transform: translateY(-2px); }
+    &:hover, &:focus-within { border-left-color: $ink; transform: translateX(3px); }
     h3 { margin-top: 0; a { color: $ink; text-decoration: none; } }
     p  { color: $muted; margin-bottom: 0; }
     .door-cta { display: inline-block; margin-top: .75rem; color: $accent; font-weight: 600; }

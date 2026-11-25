@@ -37,10 +37,14 @@ website:
             href: science/research.qmd
           - text: "Publications"
             href: science/publications.qmd
-          - text: "Experience"
-            href: science/experience.qmd
+          - text: "Outreach"
+            href: science/outreach.qmd
       - text: "About"
-        href: about.qmd
+        menu:
+          - text: "About me"
+            href: about.qmd
+          - text: "My path"
+            href: path.qmd
     right:
       - icon: envelope
         href: "mailto:carolina.camelo92@gmail.com"

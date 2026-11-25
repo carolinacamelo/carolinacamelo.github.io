@@ -38,7 +38,7 @@ Illustrations, graphics and outreach projects that make complex science clear.
 
 ::: {.door}
 ### [Science](science/index.qmd){.stretched-link}
-My research on how early embryos build their shape, plus publications and experience.
+My research on how early embryos build their shape, and my publications.
 
 [Explore my research →]{.door-cta}
 :::

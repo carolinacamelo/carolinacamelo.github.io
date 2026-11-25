@@ -49,7 +49,7 @@ science/index.qmd               # science landing page
 science/research.qmd
 science/publications.qmd        # listing built from publications.yml
 science/publications.yml
-science/experience.qmd
+path.qmd                        # "My path" (CV-style timeline), under the About menu
 assets/img/, assets/cv/         # shared images, CV PDF
 styles/theme.scss               # custom colours, fonts, styles
 ```

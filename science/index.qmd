@@ -3,11 +3,11 @@ title: "Science"
 subtitle: "How do early embryos build their shape?"
 ---
 
-::: {.todo}
-**TODO:** 2–3 plain-language sentences introducing your research and why it matters. A non-scientist should understand them.
-:::
+Take eight balls and try to pack them together: there are many ways to do it. Embryos face the same puzzle in their first divisions, and each species solves it in its own way. A sea squirt, a zebrafish, a mouse and a worm all arrange their first cells differently, yet within each species the arrangement is the same, embryo after embryo. How do cells "know" how to pack? I study how the contacts between cells, and the molecular "glue" that holds them together, shape the early embryo.
 
-I am a developmental cell biologist. I did my bachelor's and master's in Biochemistry, then moved into developmental cell biology for my PhD and postdoc. I am currently a postdoctoral researcher in the [Morphogenesis in Development](https://ista.ac.at) group (Heisenberg group) at the Institute of Science and Technology Austria (ISTA). <!-- TODO: replace with the direct link to the group page -->
+![Each species packs its first cells in its own way: the first divisions of the mouse, the worm *C. elegans* and sea squirts. Illustration: Carolina Camelo.](../assets/img/species-cleavage.webp){width="70%" fig-align="center" fig-alt="Three rows of embryo drawings, from one cell to many, for the mouse, the worm C. elegans and sea squirts. Each species arranges its cells in a different pattern: loose and rotated in the mouse, elongated in the worm, and in symmetric blocks of four in sea squirts."}
+
+I trained as a biochemist and have spent my research career in cell and developmental biology. During my PhD in Münster, I studied how the tubes of the fruit fly's breathing system connect to each other. Now, as a postdoc in the Morphogenesis in Development group at ISTA, I work on early embryos of the sea squirt *Phallusia*.
 
 ::: {.doors .three}
 ::: {.door}
@@ -25,9 +25,10 @@ Papers and preprints.
 :::
 
 ::: {.door}
-### [Experience](experience.qmd){.stretched-link}
-My academic path, talks and service.
+### [Outreach](outreach.qmd){.stretched-link}
+Talks, lab visits and writing for the public.
 
-[See my path →]{.door-cta}
+[See more →]{.door-cta}
 :::
+
 :::

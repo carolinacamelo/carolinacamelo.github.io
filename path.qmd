@@ -1,9 +1,9 @@
 ---
-title: "Experience"
-subtitle: "My path through research and science communication"
+title: "My path"
+subtitle: "Research, science communication and service"
 ---
 
-[Download my CV (PDF)](../assets/cv/carolina-camelo-cv.pdf){.btn .btn-outline-primary .btn-sm}
+[Download my CV (PDF)](assets/cv/carolina-camelo-cv.pdf){.btn .btn-outline-primary .btn-sm}
 
 ## Research
 
@@ -39,7 +39,7 @@ Featured in "Next Gen Scientist", VISTA Science's video interview series on path
 ### Job shadowing, ISTA Communications Department
 [Feb – Mar 2025]{.when}
 
-Shadowed the social media team, science writers and the press-release journalist. Designed and was credited for the [auxin-signalling schematic](../illustration/projects/2025-auxin-signaling-ista-news/index.qmd) in an ISTA news feature.
+Shadowed the social media team, science writers and the press-release journalist. Designed and was credited for the [auxin-signalling schematic](illustration/projects/2025-auxin-signaling-ista-news/index.qmd) in an ISTA news feature.
 
 ### Pen pal volunteer, Letters to a Pre-Scientist
 [2023 – present]{.when}
@@ -49,7 +49,7 @@ Accessible science writing for pre-college students from underserved backgrounds
 ### Volunteer illustrator, Stop Finning EU
 [2021]{.when}
 
-Flyers and [social media graphics](../illustration/projects/2021-stop-finning-campaign/index.qmd) for an animal-welfare advocacy campaign.
+Flyers and [social media graphics](illustration/projects/2021-stop-finning-campaign/index.qmd) for an animal-welfare advocacy campaign.
 :::
 
 ## Service & leadership
