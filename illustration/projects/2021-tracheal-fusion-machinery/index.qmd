@@ -9,12 +9,10 @@ featured: false
 portfolio-section: 2d
 showcase: true
 client: "Own review chapter, Current Topics in Developmental Biology"
-tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---
 
 ::: {.project-meta}
 [**For** {{< meta client >}}]{}
-[**Tools** {{< meta tools >}}]{}
 :::
 
 ![From whole-cell geometry to trafficking components.](figure-1.webp){fig-alt="Six panels following Drosophila tracheal fusion cells from whole-cell geometry down to individual membrane trafficking components." group="gallery"}

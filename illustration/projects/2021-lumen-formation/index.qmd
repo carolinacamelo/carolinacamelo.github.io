@@ -9,12 +9,10 @@ featured: false
 portfolio-section: 2d
 showcase: true
 client: "Own review chapter, Current Topics in Developmental Biology"
-tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---
 
 ::: {.project-meta}
 [**For** {{< meta client >}}]{}
-[**Tools** {{< meta tools >}}]{}
 :::
 
 ![Six mechanisms of lumen formation in one comparative layout.](figure-1.webp){fig-alt="Six panels comparing ways epithelial tubes form a lumen: budding and wrapping, entrapment, cavitation, cord hollowing, cell hollowing and plasma membrane invagination." group="gallery"}

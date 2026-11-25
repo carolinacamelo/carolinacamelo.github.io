@@ -9,12 +9,10 @@ featured: true
 portfolio-section: 2d
 showcase: true
 client: "ISTA Communications"
-tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---
 
 ::: {.project-meta}
 [**For** {{< meta client >}}]{}
-[**Tools** {{< meta tools >}}]{}
 :::
 
 ![Auxin signalling, from whole plant to a single root cell.](figure-1.webp){fig-alt="A flowering plant with a magnified circle showing a root cell, where auxin signalling through cAMP switches on plant growth." group="gallery"}

@@ -9,12 +9,10 @@ featured: false
 portfolio-section: 2d
 showcase: true
 client: "Own paper, Developmental Cell"
-tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---
 
 ::: {.project-meta}
 [**For** {{< meta client >}}]{}
-[**Tools** {{< meta tools >}}]{}
 :::
 
 ![The RUSH system and its applications in Drosophila.](figure-1.webp){fig-alt="Schematic of the RUSH system in Drosophila: a protein held by a hook in the ER is released with biotin, enabling studies of cellular trafficking and tissue-specific protein interference." group="gallery"}

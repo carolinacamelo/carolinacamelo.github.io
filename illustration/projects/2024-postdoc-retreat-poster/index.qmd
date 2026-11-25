@@ -9,12 +9,10 @@ featured: true
 portfolio-section: design
 showcase: true
 client: "ISTA Postdoc Association"
-tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---
 
 ::: {.project-meta}
 [**For** {{< meta client >}}]{}
-[**Tools** {{< meta tools >}}]{}
 :::
 
 ![Event poster, November 2024.](figure-1.webp){fig-alt="Event poster with bold orange hand-lettered title 'The Postdoc Retreat!', line drawings of mountains, a lecture and a toast, event dates and a registration QR code." group="gallery"}

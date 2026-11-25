@@ -25,6 +25,7 @@ See `PLAN.md` for goals, site map, phases and open decisions. Keep `PLAN.md` up 
 - Yellow `::: {.todo}` boxes mark placeholder content; delete each box once its content is filled in. Before launch, search the repo for `TODO` (also in `_quarto.yml` links).
 - Portfolio content came from Carolina's portfolio PDF (Sept 2026). Project text is her own wording; keep it that way unless she asks for edits.
 - **Unpublished work is hidden with `draft: true`** in a project's front matter. `draft-mode: gone` in `_quarto.yml` means drafts are not built at all. Currently hidden until the authors agree: the three Kizenko et al. *Nature Genetics* review figures, Singaraju et al. (*NCB*, under revision), the Kapoor et al. epiboly schematic, and the Jovic ascidian stages. These draft folders are also listed in `.gitignore` so their images never reach the public GitHub repo; remove the line there when one is cleared. Only switch one to `draft: false` when Carolina confirms permission.
+- **Do not publish the UC Santa Cruz science-writing course pieces** (feature pitch, news story, press release, LinkedIn post, Instagram carousel about the Coculla et al. *Science* 2025 fruit-fly study): the interviewed author asked that they not be shared publicly. They exist only in Carolina's application PDFs.
 - The CV PDF (`assets/cv/carolina-camelo-cv.pdf`) is pages 2–3 of her job application. Never publish the cover letter or the references page (they contain other people's contact details).
 - Reusable CSS classes in `styles/theme.scss`: `.hero`, `.doors` / `.door` (clickable cards; `.doors.three` for three columns), `.project-meta`, `.timeline` with `.when`, `.todo`.
 
@@ -70,7 +71,6 @@ image-alt: "What the image shows."
 categories: [Illustration, Outreach]
 featured: false              # true = also shown on the homepage (keep exactly 3 featured)
 client: "Who it was for (optional)"
-tools: "Procreate, Illustrator"  # plain text, shown in the Client/Tools row via {{< meta tools >}}
 ---
 ```
 

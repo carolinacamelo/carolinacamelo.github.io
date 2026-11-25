@@ -1,5 +1,5 @@
 ---
-title: "About"
+pagetitle: "About"   # browser tab name; no visible title under the photo
 about:
   id: about-block
   template: trestles
@@ -23,16 +23,32 @@ about:
 
 ## Hi, I'm Carolina
 
-I am a biologist and visual science communicator. I studied biochemistry in Lisbon and then moved to Germany for my PhD in cell and developmental biology at the University of Münster. I am now a postdoc at the Institute of Science and Technology Austria (ISTA) in Vienna, where I combine cell and developmental biology with biophysics to understand what shapes the geometry of early embryos.
+I am a biologist and visual science communicator. I studied biochemistry in Lisbon and then moved to Germany for my PhD in cell and developmental biology at the University of Münster. I am now a postdoc at ISTA in Vienna, where I combine cell and developmental biology with biophysics to understand what shapes the geometry of early embryos.
 
-For nearly a decade, I have translated complex cell and developmental biology into visual narratives. What started as a practical skill to illustrate my own research quickly became the work I find most rewarding: figures for my own papers, then schematics, series and diagrams for colleagues, reviews and outreach pieces.
+For nearly a decade, I have turned complex biology into visual stories: first for my own papers, then for colleagues, reviews and outreach. Follow [my path](path.qmd) or download my [CV (PDF)](assets/cv/carolina-camelo-cv.pdf).
 
-You can follow [my path](path.qmd) through research and science communication, or download my [CV (PDF)](assets/cv/carolina-camelo-cv.pdf).
-
-
-
-## Get in touch
-
-I'm always happy to talk about science, illustration and communication. The easiest way to reach me is by [email](mailto:carolina.camelo92@gmail.com).
+[Portrait: Stefanie Santer, VISTA Science.]{.portrait-credit}
 
 :::
+
+## Outside the lab {#outside-the-lab}
+
+Away from the microscope, I'm usually drawing, painting or making crafts, or out hiking and travelling, often with a camera.
+
+::: {layout-ncol=4}
+![European ground squirrel (*Spermophilus citellus*).](assets/img/photography/ground-squirrel.webp){group="photography" fig-alt="A small ground squirrel stands upright in green grass, looking up."}
+
+![Fire salamander (*Salamandra salamandra*).](assets/img/photography/fire-salamander.webp){group="photography" fig-alt="A black salamander with bright yellow spots walks over dry leaves."}
+
+![Arctic cottongrass, Svalbard.](assets/img/photography/arctic-cottongrass.webp){group="photography" fig-alt="A close-up of a white, fluffy cottongrass seed head blowing in the wind."}
+
+![Stockholm metro, Sweden.](assets/img/photography/stockholm-metro.webp){group="photography" fig-alt="A metro station with white zigzag lines painted across its curved rock ceiling."}
+:::
+
+::: {.photo-credit}
+All photos © Carolina Camelo.
+:::
+
+## Get in touch {#get-in-touch}
+
+I'm always happy to talk about science, illustration and communication. The easiest way to reach me is by [email](mailto:carolina.camelo92@gmail.com).

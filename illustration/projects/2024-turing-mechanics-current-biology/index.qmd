@@ -9,12 +9,10 @@ featured: false
 portfolio-section: 2d
 showcase: true
 client: "Current Biology (Dispatch, co-author)"
-tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---
 
 ::: {.project-meta}
 [**For** {{< meta client >}}]{}
-[**Tools** {{< meta tools >}}]{}
 :::
 
 ![Figure 1 from Hino, Camelo & Heisenberg, Current Biology, 2024.](figure-1.webp){fig-alt="Two embryo-like spheres: red spots of signal concentration surrounded by blue arrows showing a mechanical feedback loop, which self-organises into localised spots that predict hair follicle positions." group="gallery"}

@@ -9,12 +9,10 @@ featured: true
 portfolio-section: 2d
 showcase: true
 client: "Hofmann & Heisenberg, Seminars in Cell & Developmental Biology"
-tools: "Adobe Illustrator, Photoshop, Affinity"   # TODO: narrow down to what you used for this piece
 ---
 
 ::: {.project-meta}
 [**For** {{< meta client >}}]{}
-[**Tools** {{< meta tools >}}]{}
 :::
 
 ![Overview of the five oocyte stages, drawn to scale.](figure-1.webp){fig-alt="Zebrafish oocytes at five stages, growing in size from left to right along an arrow labelled oogenesis progression." group="gallery"}

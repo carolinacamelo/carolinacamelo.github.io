@@ -16,12 +16,10 @@ featured: false              # true = also show on the homepage (pick 3)
 portfolio-section: 2d                  # which portfolio section: 2d, 3d or design
 showcase: false              # true = also shown in the moving strip at the top of the portfolio page
 client: "Who it was for"
-tools: "Procreate, Illustrator"
 ---
 
 ::: {.project-meta}
 [**Client** {{< meta client >}}]{}
-[**Tools** {{< meta tools >}}]{}
 :::
 
 ![Caption for the main image.](cover.webp){fig-alt="Describe what the image shows." group="gallery"}
