@@ -211,3 +211,19 @@ img { border-radius: 4px; }
 
 // Small credit line for the portrait (About page)
 .portrait-credit { display: block; margin-top: 1.5rem; font-size: .85rem; color: $muted; }
+// Photo credit line, tucked right under a row of photos
+.photo-credit { margin-top: -1.5rem; margin-bottom: 1.5rem; font-size: .85rem; color: $muted; }
+
+// ---------- Publications (list layout) ----------
+.pub-list { list-style: none; padding: 0; margin: 1rem 0 2rem; }
+.pub-item {
+  display: flex; gap: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid $line;
+  &:first-child { border-top: 1px solid $line; }
+}
+.pub-year { flex: 0 0 3rem; color: $muted; font-size: .95rem; padding-top: .15rem; }
+.pub-title { font-family: $headings-font-family; font-size: 1.1rem; color: $ink; text-decoration: none; line-height: 1.35;
+  &:hover { color: $accent; text-decoration: underline; } }
+.pub-authors { color: $muted; font-size: .9rem; margin-top: .25rem; }
+.pub-journal { color: $muted; font-size: .9rem; }

@@ -1,0 +1,13 @@
+```{=html}
+<ol class="pub-list">
+<% for (const item of items) { %>
+  <li class="pub-item">
+    <div class="pub-body">
+      <a class="pub-title" href="<%- item.path %>"><%= item.title %></a>
+      <div class="pub-authors"><%= item.author %></div>
+      <div class="pub-journal"><em><%= item.journal %></em><% if (item.date) { %>, <%= item.date.slice(-4) %><% } %></div>
+    </div>
+  </li>
+<% } %>
+</ol>
+```

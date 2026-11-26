@@ -3,15 +3,9 @@ title: "Publications"
 listing:
   id: pubs
   contents: publications.yml
-  type: table
+  template: _publications.ejs   # list layout (see styles/theme.scss, "Publications")
   sort: "date desc"
   date-format: "YYYY"
-  fields: [date, title, author, journal]
-  field-display-names:
-    date: "Year"
-    title: "Title"
-    author: "Authors"
-    journal: "Journal"
   sort-ui: false
   filter-ui: false
   feed: false
@@ -20,4 +14,4 @@ listing:
 ::: {#pubs}
 :::
 
-Full list on [ORCID](https://orcid.org/0000-0001-5903-1846). <!-- TODO: add your Google Scholar link if you have one -->
+Full list on [Google Scholar](https://scholar.google.com/citations?user=Ui_l9KYAAAAJ) and [ORCID](https://orcid.org/0000-0001-5903-1846).

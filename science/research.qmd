@@ -3,26 +3,22 @@ title: "Research"
 subtitle: "Current and past projects"
 ---
 
-## Current project: how cells hold an embryo together
+## Current project: how is embryo shape regulated?
 
-*Postdoc, ISTA (Heisenberg group), since 2022 · funded by FWF ESPRIT and, before that, a Marie Skłodowska-Curie COFUND fellowship*
 
-::: {.todo}
-**DRAFT, please check and rewrite in your own words.** Keep to the research question. Don't describe unpublished results or show unpublished images (EM, segmentations, expression data) unless your PI has approved it.
-:::
-
-In the first hours of life, an embryo is just a handful of cells. Yet even at this stage it already has a precise, reproducible shape. I study how this happens in the embryo of the sea squirt *Phallusia* (an ascidian), a marine animal whose early embryos develop quickly and are beautifully transparent.
+Even in the first hours of life, when embryos are just a few cells, different species already take on different shapes. Yet within a species, embryos have precise, reproducible shapes. I use embryos of the sea squirt *Phallusia mammillata* and of zebrafish to study how these shapes arise and are maintained.
 
 My work focuses on how cells stick to each other through adhesion molecules such as cadherins, and on how the network of contacts between cells shapes the embryo as a whole.
 
-<!-- TODO: add one image you are allowed to show, e.g. an illustration you made of the early embryo -->
+*Postdoc, ISTA (Heisenberg group), since 2022 · funded by FWF ESPRIT and, before that, a Marie Skłodowska-Curie COFUND fellowship*
 
-## PhD project: how tubes fuse
 
-*PhD, University of Münster (Luschnig group), 2016–2021*
 
-During my PhD I studied how the tubes of the fruit fly's breathing system (the trachea) connect to each other. I focused on membrane trafficking and cell mechanics during epithelial tube fusion.
+## PhD project: how do tracheal tubes fuse?
+
+During fly embryogenesis, the breathing system (the trachea) has to be precisely connected so that the larva and the adult fly can breathe. During my PhD, I studied how this process is regulated, focusing on membrane trafficking and cell mechanics.
 
 Selected work from this period: a review on [how cells form tubes](../illustration/projects/2021-lumen-formation/index.qmd), with figures I made, a paper on tracheal tube fusion (*J Cell Sci*, 2022) and a co-first-author methods paper on [visualising membrane trafficking](../illustration/projects/2023-rush-trafficking-drosophila/index.qmd) (*Dev Cell*, 2023). See all [publications](publications.qmd).
 
-<!-- DRAFT built from your CV: check and rewrite in your own words. -->
+*PhD, University of Münster (Luschnig group), 2016–2021*
+
