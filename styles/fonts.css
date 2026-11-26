@@ -1,0 +1,16 @@
+/* Self-hosted web fonts (open licence, SIL OFL). Files in assets/fonts/.
+   Which fonts are USED is set in styles/theme.scss ("Fonts"). */
+@font-face { font-family: "Fraunces"; src: url("../assets/fonts/Fraunces.woff") format("woff"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Fraunces"; src: url("../assets/fonts/Fraunces-Italic.woff") format("woff"); font-weight: 100 900; font-style: italic; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url("../assets/fonts/SourceSans3.woff") format("woff"); font-weight: 200 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url("../assets/fonts/SourceSans3-Italic.woff") format("woff"); font-weight: 200 900; font-style: italic; font-display: swap; }
+@font-face { font-family: "Newsreader"; src: url("../assets/fonts/Newsreader.woff") format("woff"); font-weight: 200 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "Newsreader"; src: url("../assets/fonts/Newsreader-Italic.woff") format("woff"); font-weight: 200 800; font-style: italic; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../assets/fonts/Inter.woff") format("woff"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../assets/fonts/Inter-Italic.woff") format("woff"); font-weight: 100 900; font-style: italic; font-display: swap; }
+
+/* "Headings": Fraunces letters with calmer numbers and "&" borrowed from Newsreader */
+@font-face { font-family: "Headings"; src: url("../assets/fonts/Newsreader.woff") format("woff"); font-weight: 200 800; font-style: normal; font-display: swap; unicode-range: U+0026, U+0030-0039; }
+@font-face { font-family: "Headings"; src: url("../assets/fonts/Newsreader-Italic.woff") format("woff"); font-weight: 200 800; font-style: italic; font-display: swap; unicode-range: U+0026, U+0030-0039; }
+@font-face { font-family: "Headings"; src: url("../assets/fonts/Fraunces.woff") format("woff"); font-weight: 100 900; font-style: normal; font-display: swap; unicode-range: U+0000-0025, U+0027-002F, U+003A-FFFF; }
+@font-face { font-family: "Headings"; src: url("../assets/fonts/Fraunces-Italic.woff") format("woff"); font-weight: 100 900; font-style: italic; font-display: swap; unicode-range: U+0000-0025, U+0027-002F, U+003A-FFFF; }

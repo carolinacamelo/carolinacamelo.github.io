@@ -14,10 +14,15 @@ $muted:      #5a5e64;   // secondary text (a bit darker so it stays readable on 
 $accent:     #2f6f73;   // links, buttons, highlights
 $line:       #dccfb3;   // borders, dividers (darker sand)
 
-// Fonts (system fonts for now; Google Fonts can be added in Phase 2)
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+// Fonts (self-hosted, see styles/fonts.css and assets/fonts/)
+// Option A (active): Fraunces headings + Source Sans 3 text
+// Option B: Newsreader headings + Inter text -> swap the two lines below for the B lines
+$headings-font-family:   "Headings", "Fraunces", Georgia, serif;   // Fraunces letters + Newsreader numbers and & (see fonts.css)
+$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+//$headings-font-family:   "Newsreader", Georgia, serif;
+//$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 $font-family-base:       $font-family-sans-serif;
-$headings-font-family:   Georgia, "Times New Roman", serif;
+$font-family-serif:      $font-family-sans-serif;   // the Litera base theme uses this for paragraphs
 $headings-font-weight:   500;
 
 // Bootstrap / Quarto variables
@@ -117,6 +122,7 @@ img { border-radius: 4px; }
 // one copy, so the loop is seamless. Speed: change the 60s below.
 .filmstrip {
   overflow: hidden;
+  background: $paper;   // needed so the images can blend into the sand (see .filmstrip-item img)
   margin: .5rem 0 2rem;
   -webkit-mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
           mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
@@ -124,6 +130,7 @@ img { border-radius: 4px; }
 .filmstrip-track {
   display: flex;
   width: max-content;
+  background: $paper;   // the moving track needs its own sand background for the blend to work
   animation: filmstrip-slide 60s linear infinite;
 }
 .filmstrip:hover .filmstrip-track,
@@ -133,16 +140,14 @@ img { border-radius: 4px; }
   flex: 0 0 auto;
   width: 280px;
   margin-right: 1rem;
-  background: #fff;
-  border: 1px solid $line;
-  border-radius: 8px;
+  background: transparent;   // no card: the illustrations sit on the sand
   overflow: hidden;
   color: $ink;
   text-decoration: none;
-  transition: border-color .15s ease;
-  &:hover, &:focus { border-color: $accent; color: $ink; }
-  img { display: block; width: 100%; height: 210px; object-fit: contain; border-radius: 0; }
-  .filmstrip-title { display: block; padding: .5rem .75rem; font-size: .9rem; line-height: 1.3; }
+  &:hover, &:focus { color: $accent; }
+  // "multiply" makes the white background of the cover images take on the sand colour
+  img { display: block; width: 100%; height: 210px; object-fit: contain; border-radius: 0; mix-blend-mode: multiply; }
+  .filmstrip-title { display: block; padding: .5rem .75rem; font-size: .9rem; line-height: 1.3; text-align: center; }
 }
 
 @keyframes filmstrip-slide {
