@@ -17,7 +17,7 @@ client: "ISTA Postdoc Association"
 
 ![Event poster, November 2024.](figure-1.webp){fig-alt="Event poster with bold orange hand-lettered title 'The Postdoc Retreat!', line drawings of mountains, a lecture and a toast, event dates and a registration QR code." group="gallery"}
 
-Hand-illustrated event poster designed for the annual ISTA postdoc retreat, as part of an ongoing role coordinating communication and promotional materials for the Postdoc Association.
+Hand-illustrated event poster designed for the annual ISTA postdoc retreat, as part of my role coordinating communication and promotional materials for the Postdoc Association (2023–2026).
 
 <!-- Optional: expand into "The brief / My approach / The outcome" sections, like the template. -->
 

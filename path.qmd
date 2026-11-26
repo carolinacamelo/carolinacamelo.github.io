@@ -59,9 +59,9 @@ Flyers and [social media graphics](illustration/projects/2021-stop-finning-campa
 [2026]{.when}
 
 ### Postdoc Representative, ISTA Postdoc Association
-[Nov 2023 – present]{.when}
+[Nov 2023 – Nov 2026]{.when}
 
-Set up and run the communication workflow between the Postdoc Association and the ISTA Communications Department. Plan, design and promote materials for postdoc events (annual retreat, career workshops, social gatherings). Contributed to institutional policy communication, including a parental-leave policy change.
+Set up and ran the communication workflow between the Postdoc Association and the ISTA Communications Department. Planned, designed and promoted materials for postdoc events (annual retreat, career workshops, social gatherings). Contributed to institutional policy communication, including a parental-leave policy change.
 
 ### Sustainability Group member, ISTA
 [Nov 2022 – Dec 2024]{.when}
@@ -82,9 +82,10 @@ Organised a public talk and contributed to the Food Parliament initiative.
 
 ## Talks & posters
 
-### Talk
+### Talks
 
 - **2024** · *Geometry establishment in ascidian embryos: dissecting the cell–cell contact network topology critical for embryo shape.* 12th International Tunicate Meeting, Santa Cruz, USA.
+- **2018** · *Membrane trafficking and cell mechanics during epithelial tube fusion.* Invited seminar, Institute of Genetics & Development of Rennes, France.
 
 ### Posters
 
